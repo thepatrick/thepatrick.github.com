@@ -54,6 +54,15 @@ p {
   background-color: #fefefe;
 }
 
+.photo-of-me {
+  text-align: center;
+}
+
+.photo-of-me img {
+  width: 248px;
+  height: 205px;
+}
+
 @media (max-width: 767px) {
   #footer {
     margin-left: -20px;
