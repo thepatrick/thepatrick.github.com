@@ -1,2 +1,4 @@
 name: Patrick Quinn-Graham
 highlighter: rouge
+plugins:
+  - jekyll-redirect-from
