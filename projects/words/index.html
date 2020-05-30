@@ -1,0 +1,26 @@
+---
+layout: latex
+title: Words - Patrick Quinn-Graham
+---
+
+<!-- <section>
+  <h3><a href="words/">Words</a></h3>
+  <p>
+    Rambling incoherent thoughts that definitely
+    wouldn't be considered a blog.
+  </p>
+</section> -->
+
+<main>
+  <article>
+    <h2>Words</h2>
+
+    {% for post in site.posts %}
+    <section>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {{ post.excerpt }}
+    </section>
+    {% endfor %}
+
+  </article>
+  </main>
