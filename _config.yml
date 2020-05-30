@@ -21,6 +21,18 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+collections:
+  - talks
+
+feed:
+  path: projects/words/feed.xml
+
+author:
+  name: Patrick Quinn-Graham
+  twitter: thepatrick
+
+permalink: none
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
