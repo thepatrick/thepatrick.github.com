@@ -22,7 +22,11 @@ plugins:
   - jekyll-redirect-from
 
 collections:
-  - talks
+  talks:
+    output: false
+  decade:
+    output: true
+    permalink: /projects/retired/decade/:year-:month-:day:output_ext
 
 feed:
   path: projects/words/feed.xml
