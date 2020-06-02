@@ -42,8 +42,8 @@ const queue = new PQueue({concurrency: 4});
     const localFile = path.resolve(`./large/${filename(date, large, id)}`);
     const smallFile = path.resolve(`./small/${filename(date, large, id)}`);
     const smallFileRetina = path.resolve(`./small/${filename(date, large, id, '@2x')}`);
-    queue.add(makeThumbnail(localFile, smallFile));
-    queue.add(makeThumbnail(localFile, smallFileRetina));
+    queue.add(makeThumbnail(localFile, smallFile, 188, 128));
+    queue.add(makeThumbnail(localFile, smallFileRetina, 188 * 2, 128 * 2));
   }
 })();
 
