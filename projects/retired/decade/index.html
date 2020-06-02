@@ -26,7 +26,14 @@ title: decade.geek.nz - Patrick Quinn-Graham
     {% for photo in photos_in_order %}
       <div style="display: inline-block; min-width: 188px;">
         {{ photo.date | date: "%B %d, %Y" }}<br>
-        <a href="{{ photo.url }}"><img alt="{{ photo.title }}" title="{{ photo.title }}" src="{{ photo.small }}"></a>        
+        <a href="{{ photo.url }}">
+          <img alt="{{ photo.title }}"
+            title="{{ photo.title }}"
+            srcset="{{ photo.small }},
+              {{ photo.smallRetina }} 2x"
+            width="188" height="128"
+            src="{{ photo.small }}">
+        </a>        
       </div>
     {% endfor %}
     </div>
