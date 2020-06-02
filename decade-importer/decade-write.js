@@ -2,14 +2,15 @@ const YAML = require('yaml');
 const images = require('./decade.json');
 const fs = require('fs');
 const path = require('path');
+const { filename } = require("./filename");
 
 const fileForImage = (
-  date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt
+  id, date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt
 ) => `---
 ${YAML.stringify({
   title,
   date,
-  large,
+  large: `https://artifact.thepatrick.io/decade/large/${filename(date, large, id)}`,
   small,
   flickrUrl,
   photoId,
@@ -22,7 +23,7 @@ ${caption}
 `;
 
 for (const [id, date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt] of images.values) {
-  const contents = fileForImage(date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt);
+  const contents = fileForImage(id, date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt);
 
   const filename = path.resolve(`./${date}-${id}.md`);
 

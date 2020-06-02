@@ -5,6 +5,7 @@ const path = require('path');
 const got = require('got');
 const stream = require('stream');
 const {default: PQueue} = require('p-queue');
+const { filename } = require("./filename");
 
 const pipeline = promisify(stream.pipeline);
 const stat = promisify(fs.stat);
@@ -36,8 +37,7 @@ const queue = new PQueue({concurrency: 4});
 
 (async() => {
   for (const [id, date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt] of images.values) {
-    const ext = path.extname(large);  
-    const localFile = path.resolve(`./${date}-${id}${ext}`);
+    const localFile = path.resolve(`./${filename(date, large, id)}`);
     queue.add(download(large, localFile));
   }
 })();
