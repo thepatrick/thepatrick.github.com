@@ -10,4 +10,4 @@ The first half of the walk saw street performers, and lots of people. The weathe
 
 The walk back to Westminster wasn't as fun. Maybe I was tired, maybe the clouds had turned just that little bit more gray. Perhaps it was that for far too much of it you end walking away from the river bank. Combined with some works near London Bridge this meant crossing a very busy street, which lacked a pedestrian crossing. Further along there were some nice seats against the wall, and thankfully a free toilet.
 
-[See the days photographs](https://www.flickr.com/photos/pftqg/archives/date-posted/2007/07/28/)
+[See the days photographs](https://www.flickr.com/photos/pftqg/albums/72157719138509244)
