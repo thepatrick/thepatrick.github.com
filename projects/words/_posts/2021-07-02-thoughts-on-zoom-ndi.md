@@ -9,7 +9,7 @@ I tried out zoom rooms NDI support
 
 What's nice:
 
-* Seperate audio, including stereo when the other end send sit (e.g. with original audio turned on)
+* Seperate audio, including stereo when the other end sends sit (e.g. with original audio turned on)
 * Actual resolution video - the camera on the zoom rooms machine was 1080p, the "remote" was 720p, and the screen share was whatever its real resolution was
 * You get to pick what each NDI output is
 
