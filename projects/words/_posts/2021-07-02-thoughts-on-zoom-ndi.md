@@ -5,7 +5,7 @@ title: Thoughts on Zoom Rooms NDI
 
 I tried out zoom rooms NDI support
 
-![OBS showing NDI feeds from Zoom Rooms](https://artifact.thepatrick.io/slack/zoom-ndi-obs.png)
+![OBS showing NDI feeds from Zoom Rooms](https://mea.patrick.nz/slack/zoom-ndi-obs.png)
 
 What's nice:
 

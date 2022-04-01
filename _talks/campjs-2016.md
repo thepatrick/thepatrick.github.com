@@ -8,7 +8,7 @@ links:
 - title: The Video
   href: https://www.youtube.com/watch?v=t2xACjQbAeY
 - title: The Slides (PDF)
-  href: https://artifact.thepatrick.io/talks/2016/campjs-vii-how-i-learned-to-love-karma-and-protected-branches.pdf
+  href: https://mea.patrick.nz/talks/2016/campjs-vii-how-i-learned-to-love-karma-and-protected-branches.pdf
 - title: The Repo
   href: https://github.com/thepatrick/start-testing-talk
 ---
