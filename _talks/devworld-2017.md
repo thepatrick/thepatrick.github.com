@@ -8,7 +8,7 @@ links:
 - title: The Video
   href: https://www.youtube.com/watch?v=rnNqdwzc2ZI
 - title: The Slides (PDF)
-  href: https://artifact.thepatrick.io/talks/2017/devworld-2017-ci-no-excuses.pdf
+  href: https://mea.patrick.nz/talks/2017/devworld-2017-ci-no-excuses.pdf
 - title: The Repo
   href: https://github.com/thepatrick/devworld-20170-demo
 ---

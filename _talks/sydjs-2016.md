@@ -6,7 +6,7 @@ event:
   link: https://www.sydjs.com/
 links:
 - title: The Slides (PDF)
-  href: https://artifact.thepatrick.io/talks/2016/sydjs-its-harder-not-to-start.pdf
+  href: https://mea.patrick.nz/talks/2016/sydjs-its-harder-not-to-start.pdf
 - title: The Repo
   href: https://github.com/thepatrick/start-testing-talk
 ---

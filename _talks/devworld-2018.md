@@ -6,9 +6,9 @@ event:
   link: https://devworld.com.au
 links:
 - title: The Slides
-  href: https://artifact.thepatrick.io/talks/2018/devworld-2018-xcodebuild-for-run-and-profit/index.html?mode=overview#0
+  href: https://mea.patrick.nz/talks/2018/devworld-2018-xcodebuild-for-run-and-profit/index.html?mode=overview#0
 - title: The Slides (PDF)
-  href: https://artifact.thepatrick.io/talks/2018/devworld-2018-xcodebuild-for-run-and-profit/devworld-2018-xcodebuild-for-fun-and-profit.pdf
+  href: https://mea.patrick.nz/talks/2018/devworld-2018-xcodebuild-for-run-and-profit/devworld-2018-xcodebuild-for-fun-and-profit.pdf
 - title: The Repo
   href: https://github.com/thepatrick/devworld-xcodebuild-for-fun-and-profit
 ---

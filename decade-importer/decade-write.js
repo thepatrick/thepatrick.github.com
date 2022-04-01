@@ -10,9 +10,9 @@ const fileForImage = (
 ${YAML.stringify({
   title,
   date,
-  large: `https://artifact.thepatrick.io/decade/large/${filename(date, large, id)}`,
-  small: `https://artifact.thepatrick.io/decade/small/${filename(date, large, id)}`,
-  smallRetina: `https://artifact.thepatrick.io/decade/small/${filename(date, large, id, '@2x')}`,
+  large: `https://mea.patrick.nz/decade/large/${filename(date, large, id)}`,
+  small: `https://mea.patrick.nz/decade/small/${filename(date, large, id)}`,
+  smallRetina: `https://mea.patrick.nz/decade/small/${filename(date, large, id, '@2x')}`,
   flickrUrl,
   photoId,
   createdAt,

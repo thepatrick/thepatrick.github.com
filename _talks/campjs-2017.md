@@ -8,7 +8,7 @@ links:
 - title: The Video
   href: https://vimeo.com/232619374
 - title: The Slides (PDF)
-  href: https://artifact.thepatrick.io/talks/2017/campjs-viii-new-javascript-is-the-best-javascript.pdf
+  href: https://mea.patrick.nz/talks/2017/campjs-viii-new-javascript-is-the-best-javascript.pdf
 ---
 
 With the latest version of node and the latest browsers, lots of the cool parts
