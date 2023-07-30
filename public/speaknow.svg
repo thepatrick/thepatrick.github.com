@@ -1,0 +1,46 @@
+<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
+      <animate attributeName="fx" dur="34s" values="10%;70%;10%" repeatCount="indefinite"></animate>
+      <stop offset="0%" stop-color="rgba(206, 0, 186, 0.9)"></stop>
+      <stop offset="100%" stop-color="rgba(206, 0, 186, 0)"></stop>
+    </radialGradient>
+    <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5">
+      <animate attributeName="fx" dur="23.5s" values="25%;75%;25%" repeatCount="indefinite"></animate>
+      <animate attributeName="fy" dur="100s" values="25%;75%;25%" repeatCount="indefinite"></animate>
+      <stop offset="0%" stop-color="rgba(190, 0, 108, 0.9)"></stop>
+      <stop offset="100%" stop-color="rgba(190, 0, 108, 0)"></stop>
+    </radialGradient>
+    <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5">
+      <animate attributeName="fx" dur="321.5s" values="0%;3%;0%" repeatCount="indefinite"></animate>
+      <stop offset="0%" stop-color="rgba(136, 0, 188, 1)"></stop>
+      <stop offset="100%" stop-color="rgba(136, 0, 188, 0)"></stop>
+      <!-- <stop offset="0%" stop-color="rgba(0, 255, 255, 1)"></stop>
+      <stop offset="100%" stop-color="rgba(0, 255, 255, 0)"></stop> -->
+    </radialGradient>
+    <radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5">
+      <animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite"></animate>
+      <stop offset="0%" stop-color="rgba(58, 23, 59, 1)"></stop> <!--rgb(58, 23, 59)-->
+      <stop offset="100%" stop-color="rgba(115, 0, 141, 1)"></stop>
+    </radialGradient>
+  </defs>
+  <rect x="-50%" y="-50%" width="200%" height="200%" fill="url(#Gradient4)"></rect>
+  <rect x="-30%" y="0%" width="300%" height="300%" fill="url(#Gradient1)" transform="rotate(334.41 50 50)">
+    <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="363s" repeatCount="indefinite"></animateTransform>
+  </rect>
+  <rect x="-150%" y="-150%" width="200%" height="200%" fill="url(#Gradient1)" transform="rotate(25 50 50)">
+    <animate attributeName="x" dur="125s" values="-150%;-50%;-150%" repeatCount="indefinite"></animate>
+    <animate attributeName="y" dur="64s" values="-150%;-50%;-150%" repeatCount="indefinite"></animate>  
+    <animate attributeName="width" dur="125s" values="200%;100%;200%" repeatCount="indefinite"></animate>
+    <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="63s" repeatCount="indefinite"></animateTransform>
+  </rect>
+  <rect x="9.00483%" y="14.5733%" width="200%" height="200%" fill="url(#Gradient3)" transform="rotate(139.903 50 50)">
+    <animate attributeName="x" dur="25s" values="-100%;-50%;-100%" repeatCount="indefinite"></animate>
+    <animate attributeName="y" dur="24s" values="50%;-50%;50%" repeatCount="indefinite"></animate>
+    <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="120s" repeatCount="indefinite"></animateTransform>
+  </rect>
+  <rect x="-2.17916%" y="35.4267%" width="300%" height="300%" fill="url(#Gradient2)" transform="rotate(255.072 50 50)">
+    <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="122s" repeatCount="indefinite"></animateTransform>
+    <animate attributeName="height" dur="64s" values="300%;50%;300%" repeatCount="indefinite"></animate>  
+  </rect>
+</svg>

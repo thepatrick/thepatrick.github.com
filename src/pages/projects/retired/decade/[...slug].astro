@@ -1,0 +1,52 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import Layout from "../../../../layouts/Swift.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Link from "../../../../components/Link.astro";
+import FormattedDate from "../../../../components/FormattedDate.astro";
+import HighlightSection from "../../../../components/HighlightSection.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("decadeImage");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post
+  }));
+}
+type Props = CollectionEntry<"decadeImage">;
+
+const image = Astro.props;
+const { Content } = await image.render();
+---
+
+<Layout title={`${image.data.title} - ${SITE_TITLE}`}>
+  <main>
+
+    <article>
+      <h2>{image.data.title}</h2>
+      <p><FormattedDate date={image.data.date} /></p>
+      <p>
+        <img src={image.data.large} class=""/>
+      </p>
+
+      <Content />
+    </article>
+
+    <HighlightSection>
+      <p>
+        This photo was part of a project
+        <Link href="/projects/retired/decade/#about"
+          >to take a photo every day for ten years</Link
+        >{
+          image.data.flickrUrl && (
+            <>{
+            }, it also appeared on
+              <Link href={image.data.flickrUrl}>Flickr</Link>.
+            </>
+          )
+        }
+      </p>
+    </HighlightSection>
+
+  </main>
+</Layout>

@@ -1,0 +1,31 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>Human Bug Report</h2>
+
+      <p>
+        I registered this domain because of an XKCD comic. I even created a bug
+        tracker for it. In reality it wasn't very good (because I never did any
+        further work on it).
+      </p>
+
+      <h3>Related</h3>
+      <ul>
+        <li><Link href="/projects/">Projects</Link></li>
+        <li><Link href="http://github.com/thepatrick">GitHub</Link></li>
+      </ul>
+    </article>
+  </main>
+</Layout>

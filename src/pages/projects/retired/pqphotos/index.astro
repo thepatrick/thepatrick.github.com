@@ -1,0 +1,34 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>PQ Photos</h2>
+
+      <p>
+        The ruby on rails application that powered PQ Photos has now been
+        retired. The photos contained continue to be available on
+        <a href="http://www.flickr.com/photos/pftqg">Flickr</a>.
+      </p>
+
+      <p>
+        A curated gallery is may appear once again at some point in the future.
+      </p>
+
+      <h3>Related:</h3>
+      <ul>
+        <li><Link href="https://very.photos/patrick">Pixelfed</Link></li>
+      </ul>
+    </article>
+  </main>
+</Layout>

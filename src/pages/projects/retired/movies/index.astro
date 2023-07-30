@@ -1,0 +1,29 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>Movies I've Seen</h2>
+
+      <p>
+        The ruby on rails application that powered movies.sopabox.co.nz has now
+        been retired.
+      </p>
+
+      <h3>Recommended:</h3>
+      <ul>
+        <li><Link href="/projects/">Projects</Link></li>
+      </ul>
+    </article>
+  </main>
+</Layout>

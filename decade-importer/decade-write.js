@@ -17,7 +17,6 @@ ${YAML.stringify({
   photoId,
   createdAt,
   updatedAt,
-  layout: 'decade-image'
 })}
 ---
 ${caption}
@@ -26,7 +25,7 @@ ${caption}
 for (const [id, date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt] of images.values) {
   const contents = fileForImage(id, date, title, caption, large, small, flickrUrl, photoId, createdAt, updatedAt);
 
-  const filename = path.resolve(`./${date}-${id}.md`);
+  const filename = path.resolve(`./${date}.md`);
 
   fs.writeFileSync(filename, contents);
   console.log(`Wrote: ${filename}`);

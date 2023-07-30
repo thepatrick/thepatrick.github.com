@@ -1,0 +1,32 @@
+---
+import Layout from "../../../layouts/Swift.astro";
+import Link from "../../../components/Link.astro";
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../../components/FormattedDate.astro";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<Layout title={`Words - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <h2>Words</h2>
+    </article>
+
+    <article>
+      {
+        posts.map((post) => (
+					<section class="space-y-4 p-4 md:p-8 xl:p-12  bg-fuchsia-900 rounded-lg text-pink-50"><!--  -->
+						<h3 class="text-2xl md:text-3xl font-medium"><Link href={`/projects/words/${post.slug}`}>{post.data.title}</Link></h3>
+						<p><FormattedDate date={post.data.pubDate} /></p>
+						<p>{post.data.description}</p>
+					</section>
+        ))
+      }
+    </article>
+  </main>
+</Layout>
