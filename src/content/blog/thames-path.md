@@ -1,5 +1,8 @@
 ---
-layout: post
+title: Thames Path
+pubDate: "2007-08-02"
+description: >
+  On Saturday I went for a walk. 4.2 miles of walking, in fact.
 ---
 
 On Saturday I went for a walk. 4.2 miles of walking, in fact.

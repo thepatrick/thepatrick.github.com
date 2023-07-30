@@ -1,5 +1,8 @@
 ---
-layout: post
+title: 444 Days Later
+pubDate: "2007-07-07"
+description: >
+  I left New Zealand to go on a grand adventure 444 days ago today. In that time I've lived in Canada, and the UK, and visited the US, Greece, and France. I think it's going reasonably well so far, which is probably a good thing as I couldn't afford to go home just now.
 ---
 
 I left New Zealand to go on a grand adventure 444 days ago today. In that time I've lived in Canada, and the UK, and visited the US, Greece, and France. I think it's going reasonably well so far, which is probably a good thing as I couldn't afford to go home just now.

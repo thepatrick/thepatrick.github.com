@@ -1,5 +1,8 @@
 ---
-layout: post
+title: "One week into living in London"
+pubDate: "2007-04-25"
+description: >
+  A collection of thoughts one week in.
 ---
 
 A collection of thoughts one week in.

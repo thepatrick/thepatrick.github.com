@@ -1,5 +1,8 @@
 ---
-layout: post
+title: Amsterdam
+pubDate: "2007-10-20"
+description: >
+  I can now add another country to my visited list, Netherlands. I've spent the last two days in Amsterdam for a work conference, though at least this time I made it out of the hotel to do a little bit of sightseeing.
 ---
 
 I can now add another country to my visited list, Netherlands. I've spent the last two days in Amsterdam for a work conference, though at least this time I made it out of the hotel to do a little bit of sightseeing.

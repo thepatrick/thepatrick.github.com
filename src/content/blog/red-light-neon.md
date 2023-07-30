@@ -1,5 +1,8 @@
 ---
-layout: post
+title: "Red Light Neon"
+pubDate: "2007-02-19"
+description: >
+  I was woken up at some ungodly hour (around 10am or so) by a friend reminding me that today was the day: the walking tour of the History of Vancouver's Sex Trade.
 ---
 
 I was woken up at some ungodly hour (around 10am or so) by a friend reminding me that today was the day: the walking tour of the History of Vancouver's Sex Trade. No, there's no mistake there. I'm talking about prostitution and brothels and where it was and who tried to clean it up. (The answer to those two questions are it varied through time, and mostly politicians trying to get into office.)

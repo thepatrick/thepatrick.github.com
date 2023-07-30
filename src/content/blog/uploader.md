@@ -1,5 +1,8 @@
 ---
-layout: post
+title: Uploader
+pubDate: "2021-01-31"
+description: >
+  So you want to upload large files from your users browsers, directly to S3. You'll find plenty of examples of how to do this by uploading the whole thing in one go, but S3 supports multipart uploads - where you divide the file into chunks, which you can then upload in parallel (and even retry if something goes wrong!).
 ---
 
 So you want to upload large files from your users browsers, directly to S3. You'll find plenty of examples of how to do this by uploading the whole thing in one go, but S3 supports multipart uploads - where you divide the file into chunks, which you can then upload in parallel (and even retry if something goes wrong!).

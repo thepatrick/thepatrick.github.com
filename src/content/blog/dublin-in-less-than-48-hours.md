@@ -1,5 +1,8 @@
 ---
-layout: post
+title: Dublin in less than 48 hours
+pubDate: "2008-04-15"
+description: >
+  In which I visit another country.
 ---
 
 In which I visit another country.
@@ -10,9 +13,9 @@ The hotel, named The Parliament Hotel until the day before we arrived and then r
 
 Only managed 4 things:
 
-* Dublinia, where upon I learned interesting things about the history of Dublin, including how to write my own name in some long-unused script of some sort.
-* Christ Church Cathedral, where I saw a fantastic pipe organ (I love the things), a crypt that is far too lit but contains rather pretty treasures
-* Hop-on Hop-off Bus tour, without the whole "hopping" part (we stayed on for a complete circuit). Entertaining tour guide, as promised in the brochure.
-* Book of Kells, fantastically old. Pleasingly dark. Great intro display. Annoyingly €8. Worth a visit none the less.
+- Dublinia, where upon I learned interesting things about the history of Dublin, including how to write my own name in some long-unused script of some sort.
+- Christ Church Cathedral, where I saw a fantastic pipe organ (I love the things), a crypt that is far too lit but contains rather pretty treasures
+- Hop-on Hop-off Bus tour, without the whole "hopping" part (we stayed on for a complete circuit). Entertaining tour guide, as promised in the brochure.
+- Book of Kells, fantastically old. Pleasingly dark. Great intro display. Annoyingly €8. Worth a visit none the less.
 
 Will have to visit again soon.
