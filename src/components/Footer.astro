@@ -1,0 +1,17 @@
+---
+import Link from './Link.astro';
+const today = new Date();
+---
+
+<footer class="container mx-auto px-4 ">
+
+	<div class="py-8 md:py-16">
+		<p class="font-light text-sm text-fuchsia-200">
+			Copyright &copy; 1999-{today.getFullYear()} Patrick Quinn-Graham.
+			<Link href="/rights-reserved">Some rights reserved</Link>.
+			<br>
+			<small>Built with ❤️, astro &amp; tailwindcss</small>
+		</p>
+	</div>
+
+</footer>

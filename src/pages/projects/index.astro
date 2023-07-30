@@ -1,0 +1,42 @@
+---
+import HighlightSection from '../../components/HighlightSection.astro';
+import Link from '../../components/Link.astro';
+import { SITE_TITLE } from '../../consts';
+import Layout from '../../layouts/Swift.astro';
+---
+
+<!-- TODO: Handle redirect for /projects/code/ to here -->
+
+<Layout title={`Projects - ${SITE_TITLE}`}>
+
+  <main>
+    <article>
+      <h2>Occasionally I make things</h2>
+    </article>
+
+    <HighlightSection>
+      <h3>🤷🏻‍♂️</h3>
+      <p>
+        I don't have anything to talk about publically right now,
+        but knowing me something will come up again soon.
+      </p>
+    </HighlightSection>
+  
+    <article>
+      <section class="space-y-2">
+        <h3><Link href="/projects/retired/">Retired</Link></h3>
+        <p>Info on things that have gone away.</p>
+      </section>
+  
+      <section class="space-y-2">
+        <h3>Code on <Link href="https://github.com/thepatrick">Github</Link></h3> 
+        <p>
+          Almost all code I write outside of work can be found in a
+          public repo on GitHub.
+        </p>
+      </section>
+    </article>
+  </main>
+  
+</Layout>
+

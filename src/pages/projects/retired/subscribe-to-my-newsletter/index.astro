@@ -1,0 +1,24 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`Subscribe to my newsletter - Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>Subscribe to my newsletter</h2>
+
+      <img
+        src="/img/newsletter1.jpg"
+        alt="Subscribe to my newsltter, change your life"
+      />
+    </article>
+  </main>
+</Layout>

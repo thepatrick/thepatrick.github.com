@@ -1,0 +1,121 @@
+---
+import Link from "../../../../components/Link.astro";
+import Layout from "../../../../layouts/Swift.astro";
+
+import { getCollection } from "astro:content";
+import FormattedDate from "../../../../components/FormattedDate.astro";
+import { SITE_TITLE } from "../../../../consts";
+
+const decadeImages = (await getCollection("decadeImage")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<Layout title={`decade.geek.nz - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <h2>The Decade Project</h2>
+
+      <h3>About</h3>
+
+      <p>
+        A complete rip of off of the <Link href="http://tenyearsofmylife.com/">
+          Ten Years of My Life
+        </Link>
+        project that started roughly 6 months before The Decade Project, - having
+        stumbled upon it and followed it, I wanted to do something similar. It was
+        my third year of university, and already planning on relocating to Canada,
+        I felt like it was a good opportunity to try and capture what my twenties
+        were. If I was smarter I would have waited for my 20th birthday, and maybe
+        kept it going until my 30th. I didn't.
+      </p>
+    </article>
+
+    <article
+      class="space-y-0 grid gap-x-4 gap-y-4 grid-flow-row-dense grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7"
+    >
+      {
+        decadeImages.map((image) => (
+          <div class="w-188 h-128">
+            <div class="text-base">
+              <FormattedDate date={image.data.date} />
+            </div>
+            <a href={`/projects/retired/decade/${image.slug}`} class="block">
+              <img
+                alt={image.data.title}
+                title={image.data.title}
+                srcset={`${image.data.small}, ${image.data.smallRetina} 2x`}
+                width="188"
+                height="128"
+                src={image.data.small}
+              />
+            </a>
+          </div>
+        ))
+      }
+    </article>
+
+    <article>
+      <h3>Equipment</h3>
+      <p>
+        At the beginning photos were taken with a Fujifilm Fine Pix S3000, and
+        occasionally a Sony Ericsson S700i. In August 2005 the Nikon D50 pretty
+        much took over. If any photos after 2011 are added, these are likely to
+        have been taken with a Sony NEX-5.
+      </p>
+
+      <h3>Photos of Me</h3>
+      <div>
+        <div class="inline-block">
+          <img
+            src="https://cdn.m.ac.nz/decade/ofme/20040321.jpg"
+            alt="Me, March 21 2004"
+          /><br />
+          Mar 21, 2004
+        </div>
+        <div class="inline-block">
+          <img
+            src="https://cdn.m.ac.nz/decade/ofme/20041230.jpg"
+            alt="Me, Dec 30 2004"
+          /><br />
+          Dec 30, 2004
+        </div>
+        <div class="inline-block">
+          <img
+            src="https://cdn.m.ac.nz/decade/ofme/20051222.jpg"
+            alt="Me, Dec 22 2005"
+          /><br />
+          Dec 22, 2005
+        </div>
+        <div class="inline-block">
+          <img
+            src="https://cdn.m.ac.nz/decade/ofme/20060705.jpg"
+            alt="Me, Jul 5 2006"
+          /><br />
+          Jul 5, 2006
+        </div>
+        <div class="inline-block">
+          <img
+            src="https://cdn.m.ac.nz/decade/ofme/20080525.jpg"
+            alt="Me, May 25 2008"
+          /><br />
+          May 25, 2008
+        </div>
+        <div class="inline-block">
+          <img
+            src="https://cdn.m.ac.nz/decade/ofme/20090823.jpg"
+            alt="Me, Aug 23 2009"
+          /><br />
+          Aug 23, 2009
+        </div>
+        <div class="inline-block">
+          <img
+            src="https://cdn.m.ac.nz/decade/ofme/20100203.jpg"
+            alt="Me, Feb 3 2010"
+          /><br />
+          Feb 3, 2010
+        </div>
+      </div>
+    </article>
+  </main>
+</Layout>

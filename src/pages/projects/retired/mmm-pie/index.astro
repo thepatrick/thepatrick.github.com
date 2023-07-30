@@ -1,0 +1,29 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>mmm pie</h2>
+
+      <p>
+        Used to show, on demand, a random picture tagged with pie on flickr.
+      </p>
+
+      <h3>Recommended:</h3>
+      <ul>
+        <li><Link href="/projects/">Projects</Link></li>
+        <li><Link href="http://github.com/thepatrick">GitHub</Link></li>
+      </ul>
+    </article>
+  </main>
+</Layout>

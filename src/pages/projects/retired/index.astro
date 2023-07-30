@@ -1,0 +1,51 @@
+---
+import HighlightSection from "../../../components/HighlightSection.astro";
+import Link from "../../../components/Link.astro";
+import { SITE_TITLE } from "../../../consts";
+import Layout from "../../../layouts/Swift.astro";
+---
+
+<Layout title={`Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <h2>All good things must end</h2>
+    </article>
+
+    <HighlightSection>
+      <p>As time goes on I've found I cannot maintain things forever.</p>
+
+      <p>
+        To ensure links at least go somewhere relevant, I have created pages for
+        some of the projects that I have retired below.
+      </p>
+    </HighlightSection>
+    <article>
+      <ul>
+        <li>
+          <Link href="https://twopats.live/podcast">
+            Two Pats in a Pod(cast)
+          </Link>
+        </li>
+        <li>
+          <Link href="https://www.youtube.com/channel/UCggyfWjXO2R9fakWm18qhSg">
+            Two Pats Review
+          </Link>
+        </li>
+        <li><Link href="decade/">The Decade Project</Link></li>
+        <li><Link href="human-bug-report/">Human bug report</Link></li>
+        <li><Link href="m-dns/">M DNS</Link></li>
+        <li><Link href="mmm-pie/">Mmm pie</Link></li>
+        <li><Link href="movies/">Movies I've seen</Link></li>
+        <li><Link href="pqphotos/">PQ Photos</Link></li>
+        <li><Link href="flickrtools/">Flickr Tools</Link></li>
+        <li>
+          <Link href="subscribe-to-my-newsletter/">
+            Subscribe to my newsletter
+          </Link>
+        </li>
+        <li><Link href="cheetahwatch/">CheetahWatch</Link></li>
+        <li><Link href="cine/">Cine</Link></li>
+      </ul>
+    </article>
+  </main>
+</Layout>

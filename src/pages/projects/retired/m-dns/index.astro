@@ -1,0 +1,37 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>M DNS</h2>
+
+      <p>
+        When I started M DNS there was a surprising lack of DNS services with
+        geographic redundancy, sensible APIs and smart pricing. Today, I'm happy
+        to say, many companies offer all of these features (and more!).
+        Consequently I have decided to wind down the M DNS service. Source code
+        will appear on github at some point.
+      </p>
+
+      <h3>Recommended:</h3>
+      <ul>
+        <li>
+          <Link href="https://aws.amazon.com/route53/">route53 by AWS</Link>
+        </li>
+        <li>
+          <Link href="https://cloud.google.com/dns">Google Cloud DNS</Link>
+        </li>
+      </ul>
+    </article>
+  </main>
+</Layout>

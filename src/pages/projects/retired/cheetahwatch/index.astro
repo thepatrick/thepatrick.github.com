@@ -1,0 +1,43 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`CheetahWatch - Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>CheetahWatch</h2>
+
+      <p>
+        This was an app I started in 2007 to make it easier to use USB 3G modems
+        with macOS.
+      </p>
+
+      <p>
+        While it satisfied a need for many years I haven't used a USB 3G modem
+        in years, and these devices have evolved (even the ones that connect
+        over USB now expose an ethernet interface instead of a pretend serial
+        modem!).
+      </p>
+
+      <h3>Related</h3>
+
+      <ul>
+        <li>
+          The source code is available at <Link
+            href="https://github.com/thepatrick/cheetahwatch"
+          >
+            github.com/thepatrick/cheetahwatch
+          </Link>
+        </li>
+      </ul>
+    </article>
+  </main>
+</Layout>

@@ -1,0 +1,39 @@
+---
+import HighlightSection from "../../../../components/HighlightSection.astro";
+import Link from "../../../../components/Link.astro";
+import { SITE_TITLE } from "../../../../consts";
+import Layout from "../../../../layouts/Swift.astro";
+import SectionH1 from "../../../../components/SectionH1.astro";
+---
+
+<Layout title={`Cine - Retired Projects - ${SITE_TITLE}`}>
+  <main>
+    <article>
+      <SectionH1>
+        <Link href="/projects/retired/">Retired</Link>
+      </SectionH1>
+
+      <h2>Cine</h2>
+
+      <p>
+        This was an app I started in 2007 to make it easier to ingest video from
+        firewire compatible (or any input supported by QTKit) cameras along with
+        time markers added during recording. The app then supported export (with
+        markers) direct to Final Cut Pro.
+      </p>
+
+      <p>
+        While it satisfied a need, unfortunately a change of job meant I no
+        longer had access to firewire video gear, and really the world moved on
+        to HD.
+      </p>
+
+      <h3>Related</h3>
+
+      <ul>
+        <li><Link href="/projects/">Projects</Link></li>
+        <li><Link href="http://github.com/thepatrick">GitHub</Link></li>
+      </ul>
+    </article>
+  </main>
+</Layout>
